@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 900px;
+  margin: 0px auto 0px auto;
+}
+
+.weatherContainer {
+  display: grid;
+  width: 65%;
+}
+
+.currentWeather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tempIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.forecast {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

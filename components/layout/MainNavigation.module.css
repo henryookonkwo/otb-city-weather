@@ -1,0 +1,19 @@
+.nav {
+  margin-bottom: 20px;
+}
+
+.nav button {
+  margin: 0 5px;
+  padding: 5px 60px;
+  cursor: pointer;
+  background-color: beige;
+  border: beige;
+  border-radius: 10px;
+  height: 40px;
+  font-weight: 700;
+}
+
+.nav button.active {
+  background-color: black;
+  color: white;
+}

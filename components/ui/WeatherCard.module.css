@@ -1,0 +1,134 @@
+.twoColumnLayout div {
+  border-radius: 10px;
+}
+.twoColumnLayout {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  gap: 10px;
+  align-items: center;
+}
+.twoColumnTempInfo {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.column1 {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+@media (min-width: 768px) {
+  .column1 {
+    margin-left: 20px;
+  }
+}
+
+.tempInfoCol1 p {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 1.5em;
+}
+
+.city {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  align-content: center;
+  height: 125px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.city h1 {
+  font-size: 3em;
+}
+
+.tempInfoCol1 {
+  background-color: turquoise;
+  text-align: center;
+  color: #fff;
+  width: 155px;
+  height: 125px;
+}
+
+.column2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: beige;
+}
+
+.tempInfoCol2 {
+  background-color: lightgreen;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 155px;
+  height: 125px;
+}
+.weatherIcon {
+  height: 85px;
+}
+
+.tempInfoCol2 p {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 1.5em;
+  text-align: center;
+}
+.tempInfoCol2 img {
+  align-content: center;
+}
+
+.tempInfoCol1 .smallText {
+  font-size: small;
+  font-weight: 200;
+}
+.row .smallText {
+  font-size: small;
+  font-weight: 200;
+}
+.tempInfoCol1 .bigText {
+  font-size: 1.99em;
+  font-weight: 900;
+}
+
+.tempInfoCol2 .smallText {
+  font-size: small;
+  font-weight: 200;
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+
+.row {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cell {
+  padding: 20px;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.forcastText {
+  font-size: 1.6em;
+  font-weight: 900;
+}
+
+.cell p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
