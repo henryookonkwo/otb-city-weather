@@ -25,10 +25,10 @@
 }
 
 .city {
+  display: grid;
+  place-items: center;
   background-color: #000;
   color: #fff;
-  text-align: center;
-  align-content: center;
   height: 125px;
 }
 .city h1 {
