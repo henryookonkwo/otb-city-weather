@@ -5,7 +5,7 @@ const Head = ({ href, rel, integrety, crossorigin }) => {
         href={href}
         rel={rel}
         integrity={integrety}
-        crossorigin={crossorigin}
+        crossOrigin={crossorigin}
       ></link>
     </header>
   );
