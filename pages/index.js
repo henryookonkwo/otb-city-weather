@@ -3,7 +3,6 @@ import axios from "axios";
 import styles from "../styles/Home.module.css";
 import WeatherCard from "../components/ui/WeatherCard";
 import MainNavigation from "../components/layout/MainNavigation";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 const cities = ["OTTAWA", "ALBERTA", "LAGOS"];
 
