@@ -31,21 +31,23 @@ const WeatherCard = ({ city, current, tempType, icon, forecast }) => {
         </div>
       </div>
       <div className={`col-12 col-sm-12 col-md-3 col-lg-3 ${styles.column2}`}>
-        {forecast.slice(0, 4).map(
-          (
-            day,
-            index // Ensure only 3 days are mapped
-          ) => (
-            <div key={index} className={styles.row}>
-              <div className={styles.cell}>
-                {getDayLabel(index)} <br />
-                <span className={styles.forcastText}>
-                  {Math.round(day.day.avgtemp_c)}°C
-                </span>
+        <div>
+          {forecast.slice(0, 4).map(
+            (
+              day,
+              index // Ensure only 3 days are mapped
+            ) => (
+              <div key={index} className={styles.row}>
+                <div className={styles.cell}>
+                  {getDayLabel(index)} <br />
+                  <span className={styles.forcastText}>
+                    {Math.round(day.day.avgtemp_c)}°C
+                  </span>
+                </div>
               </div>
-            </div>
-          )
-        )}
+            )
+          )}
+        </div>
       </div>
     </div>
   );

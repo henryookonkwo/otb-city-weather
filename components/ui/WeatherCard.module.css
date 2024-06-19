@@ -2,26 +2,21 @@
   border-radius: 10px;
 }
 .twoColumnLayout {
-  display: grid;
-  grid-template-columns: 75% 25%;
+  display: flex;
   gap: 10px;
   align-items: center;
 }
 .twoColumnTempInfo {
-  display: grid;
-  grid-template-columns: 50% 50%;
+  display: flex;
   gap: 10px;
   justify-content: center;
-  align-items: center;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .column1 {
-  padding: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  flex: 3;
+  padding: 50px;
+  box-sizing: border-box;
   background-color: #f0f0f0;
 }
 
@@ -51,6 +46,7 @@
 }
 
 .tempInfoCol1 {
+  flex: 1;
   background-color: turquoise;
   text-align: center;
   color: #fff;
@@ -59,14 +55,14 @@
 }
 
 .column2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
   background-color: beige;
 }
 
 .tempInfoCol2 {
+  flex: 1;
   background-color: lightgreen;
   color: #fff;
   display: flex;
