@@ -8,7 +8,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const cities = ["OTTAWA", "ALBERTA", "LAGOS"];
 
 const Home = () => {
-  const [currentCity, setCurrentCity] = useState("Ottawa");
+  const [currentCity, setCurrentCity] = useState("OTTAWA");
   const [weatherData, setWeatherData] = useState(null);
   const [forecastData, setForecastData] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
