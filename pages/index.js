@@ -23,7 +23,7 @@ const Home = () => {
     setError(null);
 
     try {
-      const apiKey = "WILL_BE_PROVIDED_IN_EMAIL";
+      const apiKey = "bb130ba3e9b1409a98b45354211111";
       const response = await axios.get(
         `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${city}&days=3&aqi=no&alerts=no`
       );
