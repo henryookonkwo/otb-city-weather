@@ -3,27 +3,24 @@
 }
 .twoColumnLayout {
   display: flex;
-  gap: 15px;
+  gap: 3%;
   align-items: center;
   justify-content: center;
 }
 .twoColumnTempInfo {
   display: flex;
-  gap: 10px;
+  gap: 2%;
   justify-content: center;
   margin-top: 5px;
 }
 
 .column1 {
   flex: 3;
-  padding: 50px;
-  box-sizing: border-box;
+  padding: 30px;
   background-color: #f0f0f0;
 }
 
 .tempInfoCol1 p {
-  padding-left: 20px;
-  padding-right: 20px;
   font-size: 1.5em;
 }
 
@@ -33,11 +30,9 @@
   text-align: center;
   align-content: center;
   height: 125px;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 .city h1 {
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
 .tempInfoCol1 {
@@ -67,8 +62,6 @@
 }
 
 .tempInfoCol2 p {
-  padding-left: 24px;
-  padding-right: 24px;
   font-size: 1.6em;
   text-align: center;
 }
@@ -106,13 +99,13 @@
 .cell {
   padding: 24px;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 600;
 }
 
 .forcastText {
-  font-size: 1.2em;
-  font-weight: 700;
+  font-size: 1em;
+  font-weight: 900;
 }
 
 .cell p {
